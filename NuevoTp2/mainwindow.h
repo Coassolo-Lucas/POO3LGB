@@ -2,7 +2,7 @@
 #define MAINWINDOW_H
 #include "boton.h"
 #include "juego.h"
-#include "mapa.h"
+#include "mapan.h"
 #include <QMainWindow>
 
 QT_BEGIN_NAMESPACE
@@ -20,6 +20,6 @@ private slots:
     void on_pushButton_clicked();
 private:
     Ui::MainWindow *ui;
-    mapa *mapa;
+    mapaN *mapa;
 };
 #endif // MAINWINDOW_H

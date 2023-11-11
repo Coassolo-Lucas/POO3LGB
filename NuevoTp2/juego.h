@@ -1,5 +1,6 @@
 #ifndef JUEGO_H
 #define JUEGO_H
+#include "boton.h"
 #include <ctime>
 struct Celda{
     char tipo='C'; //T,N,M,H,V,C
@@ -20,7 +21,9 @@ public:
     void GeneraEstacion();
     void iniciarT();
     int tipoEstacion();
-    bool VerifPosStation(int,int);
+    bool VerifPosStation(int,int,char);
+    Boton *crearboton(int,int);
+
     //..--..--..--..--..--..--..--
 
 };

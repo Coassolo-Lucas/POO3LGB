@@ -15,8 +15,9 @@ MainWindow::~MainWindow(){
 }
 
 void MainWindow::on_pushButton_clicked(){
-    mapa = new mapa(ui->spinBox->value(),ui->spinBox_2->value());
+    mapa = new mapaN(ui->spinBox->value(),ui->spinBox_2->value());
     hide();
+    mapa->show();
 }
 
 
