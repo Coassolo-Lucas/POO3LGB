@@ -13,19 +13,19 @@ SOURCES += \
     juego.cpp \
     main.cpp \
     mainwindow.cpp \
-    mapa.cpp \
+#    mapa.cpp \
     mapan.cpp
 
 HEADERS += \
     boton.h \
     juego.h \
     mainwindow.h \
-    mapa.h \
+#    mapa.h \
     mapan.h
 
 FORMS += \
     mainwindow.ui \
-    mapa.ui \
+#    mapa.ui \
     mapan.ui
 
 # Default rules for deployment.

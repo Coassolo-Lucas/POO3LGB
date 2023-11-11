@@ -4,7 +4,8 @@
 
 class Boton : public QPushButton{
 private:
-    int fila,columna;
+    int fila;
+    int columna;
 public:
     Boton();
     int getFila() const;
